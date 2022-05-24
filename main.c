@@ -119,7 +119,7 @@ void music_list_next(void)
 int main(int argc, char **argv)
 {
     if (argc < 2) {
-        fprintf(stderr, "Usage: smm FILE\n");
+        fprintf(stderr, "Usage: smm PLAYLIST\n");
         fprintf(stderr, "Error: insufficient arguments\n");
         exit(1);
     }
