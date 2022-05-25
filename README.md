@@ -1,5 +1,5 @@
-# smm
-Simple Music Manager
+# Musik
+![Musik](img/musik.png)
 
 ## Dependencies
 - [SDL2](https://www.libsdl.org/)
@@ -8,11 +8,11 @@ Simple Music Manager
 ## Installation
 ```console
 $ ./build.sh
-$ ./build.sh <playlist>
+$ ./musik <playlist>
 ```
 
 ## Playlists
-Smm reads playlist information from `~/.config/smm.conf`.
+Musik reads playlist information from `~/.config/musik.conf`.
 
 ```conf
 # Playlist Name
